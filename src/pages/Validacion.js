@@ -120,7 +120,7 @@ export default function Validacion() {
               
               </div>
                 <div className="validacion">
-                  {imgTake && <img width={120} height={80} src={imgTake} />}
+                  {imgTake && <img width={100} height={70} src={imgTake} />}
                 </div>
               </Grid>
           </Grid>
