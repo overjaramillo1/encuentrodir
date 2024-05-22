@@ -26,7 +26,7 @@ export default function Validacion() {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "x-api-key":  'xeEL1271YK2pW0W8vgMAAmV7ML7AAmwaQZ9FTW00',
+        "x-api-key":   process.env.REACT_APP_API_KEY_REGISTRAR,
       },
       body: JSON.stringify({
         cc: docu,
@@ -66,7 +66,7 @@ export default function Validacion() {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "x-api-key": 'qfdmzeFdxN2VetG1dYgRB4jLrxHrLTveaxss0aMH',
+        "x-api-key":  process.env.REACT_APP_API_KEY_VALIDAR,
       },
       body: JSON.stringify({
         imgdata: imageSrc.replace(/^data:image\/[a-z]+;base64,/, ""),
