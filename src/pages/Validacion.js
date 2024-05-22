@@ -1,11 +1,6 @@
 import React, { useRef, useState } from "react";
 import Webcam from "react-webcam";
 import {
-  Avatar,
-  CardActions,
-  Alert,
-  Item,
-  Box,
   Button,
   Card,
   CardContent,
