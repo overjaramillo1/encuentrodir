@@ -109,7 +109,7 @@ export default function Validacion() {
         <CardContent>
           <Grid container spacing={2}>
             <Grid item xs={12}>
-              <p className="a">Encuentro director 2024 - Validación facial</p>
+              <p className="a">Encuentro director 2024 - Validación facial.</p>
               <div className="validacion">
                 <Webcam
                   className="cam"
