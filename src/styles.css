@@ -93,8 +93,8 @@ p.a {
 
 
 .webcam-container { /* Assuming this is your container class */
-  width: 270px;
-  height: 220px;
+  width: 280px;
+  height: 210px;
   border-radius: 50%; /* Set horizontal radius to 50%, vertical radius to 25% */
   overflow: hidden;
   border: 2px solid #ccc;
