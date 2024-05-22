@@ -112,15 +112,17 @@ export default function Validacion() {
               <p className="a">Encuentro director 2024 - Validación facial.</p>
               <div className="validacion">
                 <Webcam
-                  className="webcam-container"
+                  className="cam"
                   audio={false}
+                  height={300}
                   ref={webcamRef}
                   screenshotFormat="image/jpeg"
+                  width={480}
                 />
               
               </div>
                 <div className="validacion">
-                  {imgTake && <img width={120} height={80} src={imgTake} />}
+                  {imgTake && <img width={150} height={100} src={imgTake} />}
                 </div>
               </Grid>
           </Grid>
